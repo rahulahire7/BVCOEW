@@ -1,0 +1,42 @@
+--Using Git Bash.....................
+FINAL---Configute git with github...
+1.set username
+		$ git config --global user.name "rahulahire7"
+
+2.set email id.
+		$ git config --global user.email rahul.ahire@gmail.com
+
+3.clone...
+		$ git clone https://github.com/rahulahire7/LinkCodeAdJava.git
+---------------------
+Push:->
+
+git add filename
+git status(to view changes)
+git commit -m "First Commit" filename
+git push -u origin master
+-----------------------------------------------
+====================================================================
+Using Eclipse...
+
+-create repo on git hub.(copy link)
+-open eclipse
+-right side top corner Quick access->enter repo->select Git Repository.
+->Clone github repository to eclipse.(select clone ropisotory option)
+
+->create project in eclipse
+->right click share project->select github repository link
+->enter username password if required.
+
+->right click on project commit.
+------------------------------------------------------------------------------------------------------
+
+Pull project from anygit hub repository to eclipse.
+-open github accout 
+->copy git repository link (source repository link)
+->open eclipse->go to import ->select option project from git->enter repository url.
+->select your local reposioty location-->finish;
+
+
+
+
